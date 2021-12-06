@@ -1,4 +1,4 @@
-package com.example.strategy
+package com.example.android_utilities.strategy
 
 class StrategyUsage {
 
