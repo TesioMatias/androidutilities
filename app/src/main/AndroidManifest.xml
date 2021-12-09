@@ -8,6 +8,20 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Androidutilities" />
+        android:theme="@style/Theme.Androidutilities">
+
+        <activity
+            android:name=".TestActivity"
+            android:label="MVVMrecipe"
+            android:theme="@style/Theme.Androidutilities"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
 
 </manifest>

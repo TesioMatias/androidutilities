@@ -1,4 +1,6 @@
 package com.example.android_utilities
 
-class TestActivity {
+import android.app.Activity
+
+class TestActivity: Activity() {
 }
